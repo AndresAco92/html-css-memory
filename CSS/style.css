@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nerko One', cursive;
+}
+
+body{
+  background-color: rgb(173, 216, 230);
+}
+
+body .contenitore{
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+header .titolo{
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 60px;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+
+main .sottocontenitore{
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  margin: 20px 10px;
+  display: inline-block;
+}
+
+main .down{
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px
+}
+
+p{
+  color: rgb(224, 32, 134);
+  font-size: 30px;
+  line-height: 10px;
+}
+
+.down img{
+  width: 100%;
+  height: auto;
+}
+
+.carta{
+  position: relative;  
+  width: 150px;
+  height: 180px;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+  background-size: contain;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.carta:hover{
+  display: none;
+}
+p:hover{
+  color: green;
+}
